@@ -13,7 +13,7 @@ def generate_qr_code(data, filename):
     img = qr.make_image(fill_color="black", back_color="white")
     img.save(filename)
 
-if __name__ == "__main__":
+if __name__ == "__dev__":
     # Example data for QR code
     data = "Gurmeet Singh"
 
